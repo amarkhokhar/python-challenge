@@ -58,7 +58,7 @@ with open(csvpath) as csvfile:
     print('Greatest Increase in Profits: ' + str(greatest_increase_date) +  ' ($' + str(greatest_increase)+ ')') #printing the date of the greatest increase and amount
     print('Greatest Decrease in Profits: ' + str(greatest_decrease_date) +  ' ($' + str(greatest_decrease) +')') #printing the date of the greatest decrease and the amount
 
-file_path = os.path.join("PyBank", "analysis", "output_file.txt")
+file_path = os.path.join("analysis", "output_file.txt")
 
 with open(file_path, 'w') as output_file:
     output_file.write("Financial Analysis"+'\n')
