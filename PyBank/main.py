@@ -3,7 +3,7 @@ import os #importing operating system module
 import csv #importing the csv module
 
 #csvpath variable created to access the csv file: budget data
-csvpath = os.path.join('PyBank','Resources','budget_data.csv')
+csvpath = os.path.join('Resources','budget_data.csv')
 
 #opening the csv path as a file
 with open(csvpath) as csvfile:
