@@ -3,7 +3,7 @@ import os #importing the os module
 import csv #importing csv module
 
 #creating a path to the Resources folder and election data csv file
-csvpath = os.path.join('PyPoll', 'Resources','election_data.csv')
+csvpath = os.path.join('Resources','election_data.csv')
 
 #intializing a variable to count the number of rows, which will be the total votes
 row_count = 0
@@ -47,7 +47,7 @@ winning_candidate = ''
 winning_count = 0
 
 #creating a file path to write a txt file with analysis
-filepath = os.path.join('PyPoll','analysis','output_file.txt')
+filepath = os.path.join('analysis','output_file.txt')
 
 #opening the path to write the output information
 with open(filepath, 'w') as output_file:
